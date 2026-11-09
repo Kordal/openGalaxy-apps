@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "repo": "https://kordal.github.io/openGalaxy-apps/v3.24/og",
+  "apps": [
+    { "id": "ogfiles", "name": "Files", "source": "og", "package": "ogfiles", "category": "Tools",
+      "icon": "system-file-manager", "desktop": "ogfiles.desktop",
+      "summary": "Browse, copy, move and delete files. Open, extract and create zip, tar and 7z archives." },
+    { "id": "firefox", "name": "Firefox", "source": "alpine", "package": "firefox", "category": "Internet",
+      "icon": "firefox", "desktop": "firefox.desktop",
+      "summary": "Full web browser. Fits the screen, GPU accelerated, mobile sites." },
+    { "id": "calculator", "name": "Calculator", "source": "alpine", "package": "gnome-calculator", "category": "Tools",
+      "icon": "org.gnome.Calculator", "desktop": "org.gnome.Calculator.desktop",
+      "summary": "GNOME Calculator. Fits the screen, full keypad." },
+    { "id": "mousepad", "name": "Mousepad", "source": "alpine", "package": "mousepad", "category": "Tools",
+      "icon": "org.xfce.mousepad", "desktop": "org.xfce.mousepad.desktop",
+      "summary": "Text editor. Shown scaled down; keyboard types ASCII only." },
+    { "id": "netsurf", "name": "NetSurf", "source": "alpine", "package": "netsurf", "category": "Internet",
+      "icon": "netsurf", "desktop": "netsurf.desktop",
+      "summary": "Small, fast web browser for simple sites." },
+    { "id": "htop", "name": "htop", "source": "alpine", "package": "htop", "category": "System",
+      "icon": "htop", "desktop": "htop.desktop",
+      "summary": "Process viewer in the terminal." }
+  ]
+}
